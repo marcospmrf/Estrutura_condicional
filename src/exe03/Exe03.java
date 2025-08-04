@@ -8,12 +8,12 @@ public class Exe03 {
 	
 		Scanner sc = new Scanner(System.in);
 		
-		int A, B;
+		int a, b;
 		
-	    A = sc.nextInt();
-	    B = sc.nextInt();
+	    a = sc.nextInt();
+	    b = sc.nextInt();
 	    
-	    if(A % B == 0 || B % A == 0) {
+	    if(a % b == 0 || b % a == 0) {
 	    	System.out.println("Sao Multiplos");
 	    } else {
 	    	System.out.println("Nao sao Multiplos");
